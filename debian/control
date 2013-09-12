@@ -1,0 +1,36 @@
+Source: krfb
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10.2),
+ libtelepathy-qt4-dev,
+ libxdamage-dev,
+ libxtst-dev,
+ libjpeg-dev
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/krfb.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/krfb.git
+
+Package: krfb
+Section: net
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: khelpcenter4, krdc
+Description: Desktop Sharing utility
+ KDE Desktop Sharing is a manager for easily sharing a desktop session with
+ another system.  The desktop session can be viewed or controlled remotely by
+ any VNC or RFB client, such as the KDE Remote Desktop Connection client.
+ .
+ KDE Desktop Sharing can restrict access to only users who are explicitly
+ invited, and will ask for confirmation when a user attempts to connect.
+ .
+ This package is part of the KDE networking module.

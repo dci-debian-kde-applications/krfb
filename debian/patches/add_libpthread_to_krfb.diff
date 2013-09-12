@@ -1,0 +1,13 @@
+Index: krfb/krfb/CMakeLists.txt
+===================================================================
+--- krfb.orig/krfb/CMakeLists.txt	2013-09-12 11:18:57.137625879 +0000
++++ krfb/krfb/CMakeLists.txt	2013-09-12 11:20:47.301214248 +0000
+@@ -118,6 +118,8 @@
+     )
+ endif (X11_XTest_FOUND)
+ 
++target_link_libraries (krfb pthread)
++
+ install (TARGETS krfb
+          ${INSTALL_TARGETS_DEFAULT_ARGS}
+ )
