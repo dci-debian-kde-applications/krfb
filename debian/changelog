@@ -1,5 +1,5 @@
-krfb (4:4.11.2-1) UNRELEASED; urgency=low
+krfb (4:4.11.2-1) experimental; urgency=low
 
   * First release of kdenetwork after being split by upstream.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 13:15:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 14:09:29 +0200
