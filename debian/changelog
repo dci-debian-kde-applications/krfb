@@ -1,8 +1,8 @@
-krfb (4:4.12.2-2) UNRELEASED; urgency=medium
+krfb (4:4.12.2-2~) UNRELEASED; urgency=medium
 
   * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Apr 2014 15:13:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Apr 2014 15:16:23 +0200
 
 krfb (4:4.12.2-1) experimental; urgency=medium
 
