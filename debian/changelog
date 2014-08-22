@@ -1,9 +1,9 @@
-krfb (4:4.14.0-1) UNRELEASED; urgency=medium
+krfb (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 06:16:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 19:26:59 +0200
 
 krfb (4:4.12.2-2) unstable; urgency=medium
 
