@@ -1,4 +1,4 @@
-krfb (4:4.14.2-1~) UNRELEASED; urgency=medium
+krfb (4:4.14.2-1) unstable; urgency=medium
 
   * Refresh patches.
   * New patch: cve-2014-4607_unbundle_libvncserver
@@ -6,7 +6,7 @@ krfb (4:4.14.2-1~) UNRELEASED; urgency=medium
   * New upstream release (4.14.2).
   * Refresh patches.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 13:46:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Oct 2014 19:12:41 +0200
 
 krfb (4:4.14.1-1) unstable; urgency=medium
 
