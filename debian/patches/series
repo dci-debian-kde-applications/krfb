@@ -1,2 +1,1 @@
 add_libpthread_to_krfb.diff
-cve-2014-4607_unbundle_libvncserver
