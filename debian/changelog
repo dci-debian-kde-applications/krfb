@@ -1,4 +1,4 @@
-krfb (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+krfb (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream RC release
   * Remove cve-2014-4607_unbundle_libvncserver now upstream
