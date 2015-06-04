@@ -1,3 +1,9 @@
+krfb (4:14.12.3-0ubuntu2) wily; urgency=medium
+
+  * No change rebuild for libvncserver1
+
+ -- Micah Gersten <micahg@ubuntu.com>  Thu, 04 Jun 2015 13:15:53 -0500
+
 krfb (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
