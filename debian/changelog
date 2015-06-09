@@ -1,4 +1,4 @@
-krfb (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
+krfb (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -7,7 +7,7 @@ krfb (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:50:27 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:19:44 +0200
 
 krfb (4:14.12.3-0ubuntu2) wily; urgency=medium
 
