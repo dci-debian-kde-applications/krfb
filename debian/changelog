@@ -1,10 +1,12 @@
+krfb (4:15.04.2-0ubuntu2) wily; urgency=medium
+
+  * Remove telepathy build-deps, telepathy is now Qt 5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 03 Jul 2015 10:18:45 +0200
+
 krfb (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
-  * New upstream release
-  * New upstream release
-
-  [ Jonathan Riddell ]
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:19:44 +0200
