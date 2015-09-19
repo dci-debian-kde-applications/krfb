@@ -1,8 +1,8 @@
-krfb (4:15.04.2-1~) UNRELEASED; urgency=medium
+krfb (4:15.04.2-1) unstable; urgency=medium
 
   * New upstream release (15.04.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:12:58 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:11:05 +0200
 
 krfb (4:14.12.3-1) experimental; urgency=medium
 
