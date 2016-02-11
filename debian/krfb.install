@@ -1,0 +1,8 @@
+usr/bin/krfb
+usr/lib/*/libkrfbprivate.so.5
+usr/lib/*/libkrfbprivate.so.5.*
+usr/lib/*/qt5/plugins/krfb/
+usr/share/applications/org.kde.krfb.desktop
+usr/share/doc/HTML/*/krfb/
+usr/share/krfb/
+usr/share/kservicetypes5/krfb-framebuffer.desktop
