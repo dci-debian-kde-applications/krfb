@@ -1,3 +1,12 @@
+krfb (4:15.12.3-1~1.gbp3df582) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3df5822b0aba26b1cd792ef9bb2e6fe2cd1e6477 **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:47:56 +0200
+
 krfb (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
