@@ -1,8 +1,17 @@
-Index: krfb/krfb/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 11:47:46 +0200
+Subject: add_libpthread_to_krfb
+
 ===================================================================
---- krfb.orig/krfb/CMakeLists.txt	2014-09-24 14:08:49.843738219 +0200
-+++ krfb/krfb/CMakeLists.txt	2014-09-24 14:08:49.843738219 +0200
-@@ -125,6 +125,8 @@
+---
+ krfb/CMakeLists.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/krfb/CMakeLists.txt b/krfb/CMakeLists.txt
+index 821e9a1..859c965 100644
+--- a/krfb/CMakeLists.txt
++++ b/krfb/CMakeLists.txt
+@@ -102,6 +102,8 @@ if (X11_XTest_FOUND)
      )
  endif (X11_XTest_FOUND)
  

@@ -1,8 +1,11 @@
-krfb (4:15.12.2-1~) UNRELEASED; urgency=medium
+krfb (4:16.04.0-1~1.gbpc8b213) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @c8b2132806a117d84aab6e7bc4886b6b62ee07ba **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:52:00 +0100
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 04:48:01 +0200
 
 krfb (4:15.12.1-1) experimental; urgency=medium
 
