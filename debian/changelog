@@ -1,11 +1,19 @@
-krfb (4:16.04.0-1~1.gbpc8b213) UNRELEASED; urgency=medium
+krfb (4:16.04.0-1~2.gbpf4d905) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f4d905fc4974666cae85be90fbe468b9d5114145 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @c8b2132806a117d84aab6e7bc4886b6b62ee07ba **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 04:48:01 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:47:13 +0200
 
 krfb (4:15.12.1-1) experimental; urgency=medium
 
