@@ -1,10 +1,6 @@
-krfb (4:16.04.0-1~2.gbpf4d905) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f4d905fc4974666cae85be90fbe468b9d5114145 **
+krfb (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @c8b2132806a117d84aab6e7bc4886b6b62ee07ba **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
@@ -13,7 +9,7 @@ krfb (4:16.04.0-1~2.gbpf4d905) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:47:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 10:25:49 +0200
 
 krfb (4:15.12.1-1) experimental; urgency=medium
 
