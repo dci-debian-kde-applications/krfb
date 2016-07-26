@@ -1,1 +1,2 @@
 add_libpthread_to_krfb.diff
+build_against_gcc-6.patch

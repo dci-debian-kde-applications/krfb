@@ -1,0 +1,168 @@
+--- a/krfb/framebuffer.h
++++ b/krfb/framebuffer.h
+@@ -10,15 +10,15 @@
+ #ifndef FRAMEBUFFER_H
+ #define FRAMEBUFFER_H
+ 
+-#include "rfb.h"
+-
+-#include "krfbprivate_export.h"
+-
+ #include <QtCore/QObject>
+ #include <QtCore/QRect>
+ #include <QtCore/QList>
+ #include <QWidget>
+ 
++#include "rfb.h"
++
++#include "krfbprivate_export.h"
++
+ 
+ class FrameBuffer;
+ /**
+--- a/krfb/events.cpp
++++ b/krfb/events.cpp
+@@ -22,8 +22,6 @@
+    Boston, MA 02110-1301, USA.
+ */
+ 
+-#include "events.h"
+-
+ #include <QApplication>
+ #include <QX11Info>
+ #include <QDesktopWidget>
+@@ -33,6 +31,8 @@
+ #include <X11/keysym.h>
+ #include <X11/extensions/XTest.h>
+ 
++#include "events.h"
++
+ enum {
+     LEFTSHIFT = 1,
+     RIGHTSHIFT = 2,
+--- a/krfb/invitationsrfbclient.cpp
++++ b/krfb/invitationsrfbclient.cpp
+@@ -18,13 +18,6 @@
+     You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-#include "rfb.h"
+-#include "invitationsrfbclient.h"
+-#include "invitationsrfbserver.h"
+-#include "krfbconfig.h"
+-#include "sockethelpers.h"
+-#include "connectiondialog.h"
+-
+ #include <KNotification>
+ #include <KLocalizedString>
+ 
+@@ -33,6 +26,13 @@
+ #include <poll.h>
+ #include <KConfigGroup>
+ 
++#include "rfb.h"
++#include "invitationsrfbclient.h"
++#include "invitationsrfbserver.h"
++#include "krfbconfig.h"
++#include "sockethelpers.h"
++#include "connectiondialog.h"
++
+ struct PendingInvitationsRfbClient::Private
+ {
+     Private(rfbClientPtr client) :
+--- a/krfb/invitationsrfbserver.cpp
++++ b/krfb/invitationsrfbserver.cpp
+@@ -18,10 +18,6 @@
+     You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-#include "invitationsrfbserver.h"
+-#include "invitationsrfbclient.h"
+-#include "krfbconfig.h"
+-#include "rfbservermanager.h"
+ #include <QtCore/QTimer>
+ #include <QApplication>
+ #include <QtNetwork/QHostInfo>
+@@ -34,6 +30,12 @@
+ #include <KWallet/KWallet>
+ 
+ #include <dnssd/publicservice.h>
++
++#include "invitationsrfbserver.h"
++#include "invitationsrfbclient.h"
++#include "krfbconfig.h"
++#include "rfbservermanager.h"
++
+ using KWallet::Wallet;
+ 
+ //static
+--- a/krfb/rfbclient.cpp
++++ b/krfb/rfbclient.cpp
+@@ -17,15 +17,16 @@
+     You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
++#include <QtCore/QSocketNotifier>
++#include <QDebug>
++#include <poll.h>
++#include <strings.h> //for bzero()
++
+ #include "rfbclient.h"
+ #include "connectiondialog.h"
+ #include "krfbconfig.h"
+ #include "sockethelpers.h"
+ #include "events.h"
+-#include <QtCore/QSocketNotifier>
+-#include <QDebug>
+-#include <poll.h>
+-#include <strings.h> //for bzero()
+ 
+ struct RfbClient::Private
+ {
+--- a/krfb/rfbserver.cpp
++++ b/krfb/rfbserver.cpp
+@@ -17,13 +17,14 @@
+     You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-#include "rfbserver.h"
+-#include "rfbservermanager.h"
+ #include <QtCore/QSocketNotifier>
+ #include <QApplication>
+ #include <QClipboard>
+ #include <QDebug>
+ 
++#include "rfbserver.h"
++#include "rfbservermanager.h"
++
+ struct RfbServer::Private
+ {
+     QByteArray listeningAddress;
+--- a/krfb/rfbservermanager.cpp
++++ b/krfb/rfbservermanager.cpp
+@@ -18,12 +18,6 @@
+     You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-#include "rfbservermanager.h"
+-#include "rfbserver.h"
+-#include "framebuffer.h"
+-#include "framebuffermanager.h"
+-#include "sockethelpers.h"
+-#include "krfbconfig.h"
+ #include <QtCore/QTimer>
+ #include <QApplication>
+ #include <QDesktopWidget>
+@@ -34,6 +28,12 @@
+ #include <KLocalizedString>
+ #include <KUser>
+ #include <KNotification>
++#include "rfbservermanager.h"
++#include "rfbserver.h"
++#include "framebuffer.h"
++#include "framebuffermanager.h"
++#include "sockethelpers.h"
++#include "krfbconfig.h"
+ 
+ static const char *cur =
+     "                   "

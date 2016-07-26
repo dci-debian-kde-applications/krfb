@@ -1,14 +1,15 @@
-krfb (4:16.04.1-0neon) xenial; urgency=medium
+krfb (4:16.04.0-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:45:50 +0200
-
-krfb (4:15.12.2-1~) UNRELEASED; urgency=medium
-
+  [ Maximiliano Curia ]
   * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:52:00 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 10:25:49 +0200
 
 krfb (4:15.12.1-1) experimental; urgency=medium
 
