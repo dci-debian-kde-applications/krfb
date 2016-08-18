@@ -1,3 +1,41 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 18 Aug 2016 22:47:11 +0200
+Subject: build_against_gcc-6
+
+---
+ krfb/events.cpp               |  4 ++--
+ krfb/framebuffer.h            |  8 ++++----
+ krfb/invitationsrfbclient.cpp | 14 +++++++-------
+ krfb/invitationsrfbserver.cpp | 10 ++++++----
+ krfb/rfbclient.cpp            |  9 +++++----
+ krfb/rfbserver.cpp            |  5 +++--
+ krfb/rfbservermanager.cpp     | 12 ++++++------
+ 7 files changed, 33 insertions(+), 29 deletions(-)
+
+diff --git a/krfb/events.cpp b/krfb/events.cpp
+index 24be95d..d903cce 100644
+--- a/krfb/events.cpp
++++ b/krfb/events.cpp
+@@ -22,8 +22,6 @@
+    Boston, MA 02110-1301, USA.
+ */
+ 
+-#include "events.h"
+-
+ #include <QApplication>
+ #include <QX11Info>
+ #include <QDesktopWidget>
+@@ -33,6 +31,8 @@
+ #include <X11/keysym.h>
+ #include <X11/extensions/XTest.h>
+ 
++#include "events.h"
++
+ enum {
+     LEFTSHIFT = 1,
+     RIGHTSHIFT = 2,
+diff --git a/krfb/framebuffer.h b/krfb/framebuffer.h
+index f6430a3..18f9091 100644
 --- a/krfb/framebuffer.h
 +++ b/krfb/framebuffer.h
 @@ -10,15 +10,15 @@
@@ -20,26 +58,8 @@
  
  class FrameBuffer;
  /**
---- a/krfb/events.cpp
-+++ b/krfb/events.cpp
-@@ -22,8 +22,6 @@
-    Boston, MA 02110-1301, USA.
- */
- 
--#include "events.h"
--
- #include <QApplication>
- #include <QX11Info>
- #include <QDesktopWidget>
-@@ -33,6 +31,8 @@
- #include <X11/keysym.h>
- #include <X11/extensions/XTest.h>
- 
-+#include "events.h"
-+
- enum {
-     LEFTSHIFT = 1,
-     RIGHTSHIFT = 2,
+diff --git a/krfb/invitationsrfbclient.cpp b/krfb/invitationsrfbclient.cpp
+index 3a881cd..c392518 100644
 --- a/krfb/invitationsrfbclient.cpp
 +++ b/krfb/invitationsrfbclient.cpp
 @@ -18,13 +18,6 @@
@@ -70,6 +90,8 @@
  struct PendingInvitationsRfbClient::Private
  {
      Private(rfbClientPtr client) :
+diff --git a/krfb/invitationsrfbserver.cpp b/krfb/invitationsrfbserver.cpp
+index 33dac04..71d8048 100644
 --- a/krfb/invitationsrfbserver.cpp
 +++ b/krfb/invitationsrfbserver.cpp
 @@ -18,10 +18,6 @@
@@ -96,6 +118,8 @@
  using KWallet::Wallet;
  
  //static
+diff --git a/krfb/rfbclient.cpp b/krfb/rfbclient.cpp
+index 8a44913..cd4c250 100644
 --- a/krfb/rfbclient.cpp
 +++ b/krfb/rfbclient.cpp
 @@ -17,15 +17,16 @@
@@ -119,6 +143,8 @@
  
  struct RfbClient::Private
  {
+diff --git a/krfb/rfbserver.cpp b/krfb/rfbserver.cpp
+index d04bf1c..a331e44 100644
 --- a/krfb/rfbserver.cpp
 +++ b/krfb/rfbserver.cpp
 @@ -17,13 +17,14 @@
@@ -138,6 +164,8 @@
  struct RfbServer::Private
  {
      QByteArray listeningAddress;
+diff --git a/krfb/rfbservermanager.cpp b/krfb/rfbservermanager.cpp
+index 17c5eb3..c9e15be 100644
 --- a/krfb/rfbservermanager.cpp
 +++ b/krfb/rfbservermanager.cpp
 @@ -18,12 +18,6 @@
