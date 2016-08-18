@@ -1,11 +1,17 @@
-krfb (4:16.04.0-2~1.gbp6b6a0f) UNRELEASED; urgency=medium
+krfb (4:16.08.0-1~1.gbpba0ad3) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @ba0ad398ce1ba26cbccf8ae0895c58b3167dbf96 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @6b6a0fe063f299690d95d594e8082f14ae518451 **
 
   * Add new patch: build_against_gcc-6.patch.
     Thanks to Lucas Nussbaum for the report (Closes: 831090)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Jul 2016 20:47:20 +0200
+  [ Automatic packaging ]
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:47:13 +0200
 
 krfb (4:16.04.0-1) unstable; urgency=medium
 
