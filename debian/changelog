@@ -1,6 +1,6 @@
-krfb (4:16.08.0-1~1.gbpba0ad3) UNRELEASED; urgency=medium
+krfb (4:16.08.2-1~1.gbp93993d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ba0ad398ce1ba26cbccf8ae0895c58b3167dbf96 **
+  ** SNAPSHOT build @93993d8ee253178ca57a305a314a6871bac6dadc **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @6b6a0fe063f299690d95d594e8082f14ae518451 **
@@ -10,8 +10,9 @@ krfb (4:16.08.0-1~1.gbpba0ad3) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:47:13 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 22:47:38 +0200
 
 krfb (4:16.04.0-1) unstable; urgency=medium
 
