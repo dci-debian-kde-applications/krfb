@@ -1,18 +1,15 @@
-krfb (4:16.08.2-1~1.gbp93993d) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @93993d8ee253178ca57a305a314a6871bac6dadc **
+krfb (4:16.08.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @6b6a0fe063f299690d95d594e8082f14ae518451 **
-
   * Add new patch: build_against_gcc-6.patch.
     Thanks to Lucas Nussbaum for the report (Closes: 831090)
+  * New upstream release (16.08.2)
 
   [ Automatic packaging ]
   * Refresh patches
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 22:47:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 09:29:00 +0200
 
 krfb (4:16.04.0-1) unstable; urgency=medium
 
