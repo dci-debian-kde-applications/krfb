@@ -1,10 +1,8 @@
-krfb (4:16.08.3-1~1.gbpe688da) UNRELEASED; urgency=medium
+krfb (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e688da198c25d1d89025488e0eaa803de0e28852 **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 22:47:14 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:16:14 +0100
 
 krfb (4:16.08.2-1) unstable; urgency=medium
 
