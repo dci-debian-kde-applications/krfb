@@ -6,3 +6,4 @@ usr/share/applications/org.kde.krfb.desktop
 usr/share/doc/HTML/*/krfb/
 usr/share/krfb/
 usr/share/kservicetypes5/krfb-framebuffer.desktop
+usr/share/metainfo/org.kde.krfb.appdata.xml
