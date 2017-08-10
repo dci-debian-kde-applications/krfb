@@ -41,6 +41,8 @@ Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter, krdc
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: Desktop Sharing utility
  KDE Desktop Sharing is a manager for easily sharing a desktop session with
  another system.  The desktop session can be viewed or controlled remotely by
