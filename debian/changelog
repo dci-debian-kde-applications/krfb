@@ -13,6 +13,7 @@ krfb (4:17.08.3-0r1) UNRELEASED; urgency=medium
     drop translations.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:42 +0100
 
@@ -263,7 +264,7 @@ krfb (4:4.13.97-0ubuntu2) utopic; urgency=medium
       minilzo/minilzo.c, src/lzo1_d.ch, src/lzo1b_d.ch, src/lzo1f_d.ch,
       src/lzo1x_d.ch, src/lzo2a_d.ch.
     - CVE-2014-4607
-    - http://www.kde.org/info/security/advisory-20140803-1.txt 
+    - http://www.kde.org/info/security/advisory-20140803-1.txt
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 04 Aug 2014 17:24:04 +0200
 
