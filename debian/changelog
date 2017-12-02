@@ -17,6 +17,7 @@ krfb (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Stop forcing debian/tmp as local installation directory, installing
     everything to the final location
     - drop krfb.install, no more useful now
+  * Add the pkg-config build dependency.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:42 +0100
 

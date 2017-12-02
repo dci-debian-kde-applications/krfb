@@ -35,6 +35,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libxcb1-dev,
                libxdamage-dev,
                libxtst-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
 Standards-Version: 4.1.1
