@@ -1,1 +1,4 @@
+# private library
 krfb: package-name-doesnt-match-sonames libkrfbprivate5*
+# private library
+krfb: no-symbols-control-file
